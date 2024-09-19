@@ -1,5 +1,6 @@
 import "./App.css";
-import Toggle from "./components/state/Toggle";
+import Counter from "./components/counter/Counter";
+import Toggle from "./components/toggle/Toggle";
 // import YoutubeList from "./components/youtube/YoutubeList";
 
 function App() {
@@ -8,7 +9,10 @@ function App() {
     // <div>
     //   <YoutubeList>{name || "Hung ga khong them name"}</YoutubeList>
     // </div>
-    <Toggle></Toggle>
+    <div>
+      <Toggle></Toggle>
+      <Counter></Counter>
+    </div>
   );
 }
 
